@@ -15,6 +15,12 @@
 	--main-color:#aed36c;
 	--back-color: #f0f0f0;
 }
+html {
+	scroll-behavior: smooth;
+}
+body {
+	max-width: 100%;
+}
 .header {
 	background-color: var(--back-color);
 	z-index: 3;
@@ -86,15 +92,6 @@
 	font-size: 50px;
 	margin-bottom: 20px;
 	font-weight: 700;
-}
-.products .products-title:before {
-	content:"";
-	background-color: turquoise;
-	position: absolute;
-	top: 770px;
-	width: 400px;
-	height: 24px;
-
 }
 .products .col {
 	display: grid;
